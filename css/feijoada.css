@@ -1,0 +1,108 @@
+body {
+  background-color: rgba(125, 149, 250, 30%);
+  color: #262626;
+  font-family: sans-serif;
+}
+
+img{
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 64px;
+  height: auto;
+  margin-top: -20px;
+  margin-bottom: 32px;
+}
+
+.icon.mainicon {
+  margin-bottom: 48px;
+}
+
+.recipe {
+  background-color: hsl(0, 0%, 97%);
+  border-radius: 10px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px;
+  max-width: 800px;
+}
+
+
+h1,h2 {
+  text-align: center;
+  font-family: Impact, sans-serif;
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 32px;
+}
+
+h2 {
+  margin-top: 32px;
+  font-size: 30px;
+}
+
+/* Button  - Home */
+
+.logo-return {
+  height: auto;
+  width: 20px;
+  margin-bottom: -6px;
+}
+
+button {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 8px 16px;
+  border: 0px;
+  background-color: #463CFA;
+  color: hsl(0, 0%, 97.5%);
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: hsl(243, 95%, 65%);
+}
+
+button:active {
+  background-color: hsl(243, 95%, 55%);
+  padding: 8px;
+}
+
+/* footer */
+
+hr {
+  padding: 1px;
+  background-color: #FA9155;
+  border-color: #FA9155;
+  margin-bottom: 32px;
+  border-radius: 5px;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+}
+
+a {
+  color: #262626;
+}
+
+a:hover {
+  color: #FA9155;
+}
+
+a:active {
+  color: rgba(250, 145, 85, 50%);
+}
