@@ -30,9 +30,8 @@ img{
 }
 
 .icon.mainicon {
-  width: 72px;
+  width: 112px;
   height: auto;
-  margin-bottom: 66px;
 }
 
 
@@ -44,7 +43,7 @@ h1,h2 {
 
 h1 {
   font-size: 64px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 
 h2 {
