@@ -94,7 +94,7 @@ button {
 }
 
 button:hover {
-  background-color: hsl(243, 95%, 65%);
+  background-color: hsl(243, 95%, 75%);
 }
 
 button:active {
