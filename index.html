@@ -3,22 +3,37 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./css/style.css" rel="stylesheet">
   <title>Odin Recipes</title>
 </head>
 
 <body>
-  <h1>Odin Recipes</h1>
+  <header id="menu">
+    <a href="https://github.com/DaniloArcj/odin-recipes/tree/odin-recipes-css" target="_blank"><button class="button"><img class="logo-button" src="./img/github.svg"> GitHub</button></a>
+    <a href="about.html"><button class="button"><img class="logo-button" src="./img/about.svg"> About</button></a>
+  </header>
 
-  <img src="./img/odinchef.png" alt="The Odin-Project mascot logo wearing a chef hat" class="logo">
-        
-  <h2>Traditional Brazilian Recipes</h2>
-  <ul lang="pt-BR">
-    <li><a href="./recipes/feijoada.html" >Feijoada</a></li>
-    <li><a href="./recipes/paodequeijo.html" >Pão de Queijo</a></li>
-    <li><a href="./recipes/coxinha.html">Coxinha</a></li>
-    <li><a href="./recipes/caipirinha.html">Caipirinha</a></li>
-  </ul>
+  <main id="recipe">
+    <section>
+      <h1>Odin Recipes</h1>
+      <img class="icon mainicon" src="./img/odin-recipe.svg" alt="Chef cooking icon">
+      <hr>
+    </section>
+    <section>          
+      <h2>Traditional Brazilian Recipes</h2>
+      <img class="icon" src="./img/brazil.svg" alt="Brazilian flag Icon">
+      <ul lang="pt-BR">
+        <li><a href="./recipes/feijoada.html" >Feijoada</a></li>
+        <li><a href="./recipes/paodequeijo.html" >Pão de Queijo</a></li>
+        <li><a href="./recipes/coxinha.html">Coxinha</a></li>
+        <li><a href="./recipes/caipirinha.html">Caipirinha</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    No copyright
+  </footer>
 </body>
 
 </html>
